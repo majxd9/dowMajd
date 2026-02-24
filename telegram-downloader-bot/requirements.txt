@@ -1,0 +1,15 @@
+# ===== المكتبات الأساسية =====
+python-telegram-bot==20.7
+yt-dlp>=2024.1.1
+
+# ===== إدارة المتغيرات البيئية =====
+python-dotenv==1.0.0
+
+# ===== معالجة الوسائط (مطلوبة لـ yt-dlp) =====
+# ffmpeg يجب تثبيته على النظام (راجع دليل التثبيت)
+# sudo apt install ffmpeg   (Ubuntu/Debian)
+# brew install ffmpeg       (macOS)
+# choco install ffmpeg      (Windows)
+
+# ===== اختياري: تحسين الأداء =====
+# httpx[http2]>=0.25.0    # HTTP/2 support
